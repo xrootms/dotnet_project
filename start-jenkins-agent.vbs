@@ -1,0 +1,2 @@
+Set objShell = CreateObject("WScript.Shell")
+objShell.Run "java -jar agent.jar -jnlpUrl http://192.168.13.189:9191/computer/Ceroc-Dev-Server/slave-agent.jnlp -secret 128a541b2b46a584b1940f9a60a95cc9fd8b04a528c7d0a6d0c0efb97177cbba" -workDir "C:\jenkins-dev", 0
